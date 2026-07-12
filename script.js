@@ -13,7 +13,7 @@ function calcularJuros() {
     // Fórmula: M = C * (1 + i)^t
     const montante = capital * Math.pow((1 + taxa), tempo);
     
-    // Exibe o resultado formatado em Real (R$)
+    // Isso aqui exibe o resultado formatado em Real (R$)
     document.getElementById('resultado').innerText = `Resultado: ${montante.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' })}`;
 }
 

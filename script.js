@@ -10,7 +10,7 @@ function calcularJuros() {
         return;
     }
 
-    // Fórmula: M = C * (1 + i)^t
+    // Formula: M = C * (1 + i)^t
     const montante = capital * Math.pow((1 + taxa), tempo);
     
     // Isso aqui exibe o resultado formatado em Real (R$)
